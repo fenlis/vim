@@ -20,3 +20,4 @@ set csto=0 " cscope DB search first
 set cst " cscope DB tag DB search
 set nocsverb " verbose off
 
+nmap <F7> :cs find f 
