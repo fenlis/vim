@@ -54,6 +54,7 @@ filetype plugin indent on     " required!
 " NOTE: comments after Bundle commands are not allowed.
 
 so ~/.vim/configs/srcexpl.vim
+so ~/.vim/configs/nerdtree.vim
 so ~/.vim/configs/trinity.vim
 so ~/.vim/configs/cscope.vim
 
