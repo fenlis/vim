@@ -7,12 +7,11 @@ git submodule init
 git submodule update
 
 # backup original configurations
-if [ -f ~/.vimrc]; then
-	# TODO: backup
+if [ -f ~/.vimrc ]; then
 	mv ~/.vimrc ~/.vimrc-org
 fi
 
-if [ -d ~/.vim] ||[ -f ~/.vim]; then
+if [ -d ~/.vim ] ||[ -f ~/.vim ]; then
 	mv ~/.vim ~/.vim-org
 fi
 
